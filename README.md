@@ -15,6 +15,7 @@
 - 반면, StringBuilder는 동기화를 보장하지 않음.
 #### ex)
 StringBuilder builder = new StringBuilder();
+
 builder.append("ASDF");
 ### 결론
 String은 짧은 문자열을 더할 경우 사용합니다.
